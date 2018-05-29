@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  <group android:checkableBehavior="single">
+      <item android:title="Client Menu">
+           <menu>
+               <item
+                 android:id="@+id/booking"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Make a Booking" />
+             <item
+                 android:id="@+id/PackageStat"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="View Package Status" />
+
+               <item
+                   android:id="@+id/FinancialStatements"
+                   android:icon="@drawable/ic_menu_send"
+                   android:title="View Financial Statements" />
+             </menu>
+         </item>>
+
+     </group>-->
+
+    <group>
+    <item android:title="Driver Menu">
+        <menu>
+            <item
+                android:id="@+id/PendingDeliveries"
+                android:icon="@drawable/ic_menu_send"
+                android:title="View Pending Deliveries"/>
+
+            <item
+                android:id="@+id/UpdateCollection"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Update Collection Status"/>
+
+            <item
+                android:id="@+id/UpdateDelivery"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Update Delivery Status"/>
+
+            <item
+                android:id="@+id/RoutingSchedule"
+                android:icon="@drawable/ic_menu_send"
+                android:title="View Routing Schedule"/>
+
+            <item
+                android:id="@+id/CheckInOut"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Check vehicle In/Out"/>
+
+        </menu>
+    </item>
+    </group>
+
+
+</menu>

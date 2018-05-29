@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deregister_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deregister" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Deregister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeregisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExisting_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExisting" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExisting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistingUsername_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingUsername" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistingUsername_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Usertype_InputMessage">
+    <wsdl:part name="parameters" element="tns:Usertype" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Usertype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsertypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSurname_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSurname" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSurname_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSurnameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Book_InputMessage">
+    <wsdl:part name="parameters" element="tns:Book" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Book_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CancelBooking_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBooking" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CancelBooking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewPendingOrderS_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewPendingOrderS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewPendingOrderS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewPendingOrderSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_viewStatement_InputMessage">
+    <wsdl:part name="parameters" element="tns:viewStatement" />
+  </wsdl:message>
+  <wsdl:message name="IService1_viewStatement_OutputMessage">
+    <wsdl:part name="parameters" element="tns:viewStatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewClientOrderS_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewClientOrderS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewClientOrderS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewClientOrderSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDriver_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDriver" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDriver_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_driverAvailability_InputMessage">
+    <wsdl:part name="parameters" element="tns:driverAvailability" />
+  </wsdl:message>
+  <wsdl:message name="IService1_driverAvailability_OutputMessage">
+    <wsdl:part name="parameters" element="tns:driverAvailabilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_editDriver_InputMessage">
+    <wsdl:part name="parameters" element="tns:editDriver" />
+  </wsdl:message>
+  <wsdl:message name="IService1_editDriver_OutputMessage">
+    <wsdl:part name="parameters" element="tns:editDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_removeDriver_InputMessage">
+    <wsdl:part name="parameters" element="tns:removeDriver" />
+  </wsdl:message>
+  <wsdl:message name="IService1_removeDriver_OutputMessage">
+    <wsdl:part name="parameters" element="tns:removeDriverResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RemoveDriver1_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveDriver1" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RemoveDriver1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveDriver1Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewDrivers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewDrivers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewDrivers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewDriversResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAvailableDrivers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAvailableDrivers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAvailableDrivers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAvailableDriversResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAllDrivers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAllDrivers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAllDrivers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAllDriversResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewWorkingDrivers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewWorkingDrivers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewWorkingDrivers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewWorkingDriversResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetrieveDriverDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveDriverDetails" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RetrieveDriverDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetrieveDriverDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddVehicle_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddVehicle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddVehicle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RemoveVehicle_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveVehicle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RemoveVehicle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAssignedVehicle_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssignedVehicle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAssignedVehicle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssignedVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewVehicles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewVehicles" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewVehicles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewVehiclesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddManager_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddManager" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddManager_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddManagerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewOrders" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAllPendingOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAllPendingOrders" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewAllPendingOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewAllPendingOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Assign_Booking_InputMessage">
+    <wsdl:part name="parameters" element="tns:Assign_Booking" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Assign_Booking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Assign_BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Registration_InputMessage">
+    <wsdl:part name="parameters" element="tns:Registration" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Registration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistinG_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistinG" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistinG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistinGResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistingUName_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingUName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CheckExistingUName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckExistingUNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UserType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserType" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UserType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUserame_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUserame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Booking_InputMessage">
+    <wsdl:part name="parameters" element="tns:Booking" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Booking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewClientOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewClientOrders" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewClientOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewClientOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewStatement_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewStatement" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewStatement_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewStatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewPending_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewPending" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ViewPending_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewPendingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCollection" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateDelivery_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDelivery" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateDelivery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingMethod_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingMethod" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingMethod_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetString_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetString" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetString_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStringResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Register" message="tns:IService1_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RegisterResponse" message="tns:IService1_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deregister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Deregister" message="tns:IService1_Deregister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeregisterResponse" message="tns:IService1_Deregister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExisting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CheckExisting" message="tns:IService1_CheckExisting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CheckExistingResponse" message="tns:IService1_CheckExisting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingUsername">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CheckExistingUsername" message="tns:IService1_CheckExistingUsername_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CheckExistingUsernameResponse" message="tns:IService1_CheckExistingUsername_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Usertype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Usertype" message="tns:IService1_Usertype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UsertypeResponse" message="tns:IService1_Usertype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetName" message="tns:IService1_GetName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNameResponse" message="tns:IService1_GetName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSurname">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSurname" message="tns:IService1_GetSurname_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSurnameResponse" message="tns:IService1_GetSurname_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Book" message="tns:IService1_Book_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BookResponse" message="tns:IService1_Book_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CancelBooking" message="tns:IService1_CancelBooking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CancelBookingResponse" message="tns:IService1_CancelBooking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewPendingOrderS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewPendingOrderS" message="tns:IService1_ViewPendingOrderS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewPendingOrderSResponse" message="tns:IService1_ViewPendingOrderS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="viewStatement">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/viewStatement" message="tns:IService1_viewStatement_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/viewStatementResponse" message="tns:IService1_viewStatement_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewClientOrderS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewClientOrderS" message="tns:IService1_ViewClientOrderS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewClientOrderSResponse" message="tns:IService1_ViewClientOrderS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDriver">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddDriver" message="tns:IService1_AddDriver_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddDriverResponse" message="tns:IService1_AddDriver_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="driverAvailability">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/driverAvailability" message="tns:IService1_driverAvailability_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/driverAvailabilityResponse" message="tns:IService1_driverAvailability_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="editDriver">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/editDriver" message="tns:IService1_editDriver_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/editDriverResponse" message="tns:IService1_editDriver_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="removeDriver">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/removeDriver" message="tns:IService1_removeDriver_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/removeDriverResponse" message="tns:IService1_removeDriver_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveDriver1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RemoveDriver1" message="tns:IService1_RemoveDriver1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RemoveDriver1Response" message="tns:IService1_RemoveDriver1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewDrivers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewDrivers" message="tns:IService1_ViewDrivers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewDriversResponse" message="tns:IService1_ViewDrivers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewAvailableDrivers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewAvailableDrivers" message="tns:IService1_ViewAvailableDrivers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewAvailableDriversResponse" message="tns:IService1_ViewAvailableDrivers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewAllDrivers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewAllDrivers" message="tns:IService1_ViewAllDrivers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewAllDriversResponse" message="tns:IService1_ViewAllDrivers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewWorkingDrivers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewWorkingDrivers" message="tns:IService1_ViewWorkingDrivers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewWorkingDriversResponse" message="tns:IService1_ViewWorkingDrivers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveDriverDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RetrieveDriverDetails" message="tns:IService1_RetrieveDriverDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RetrieveDriverDetailsResponse" message="tns:IService1_RetrieveDriverDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddVehicle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddVehicle" message="tns:IService1_AddVehicle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddVehicleResponse" message="tns:IService1_AddVehicle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveVehicle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RemoveVehicle" message="tns:IService1_RemoveVehicle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RemoveVehicleResponse" message="tns:IService1_RemoveVehicle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssignedVehicle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAssignedVehicle" message="tns:IService1_GetAssignedVehicle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAssignedVehicleResponse" message="tns:IService1_GetAssignedVehicle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewVehicles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewVehicles" message="tns:IService1_ViewVehicles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewVehiclesResponse" message="tns:IService1_ViewVehicles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddManager">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddManager" message="tns:IService1_AddManager_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddManagerResponse" message="tns:IService1_AddManager_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewOrders" message="tns:IService1_ViewOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewOrdersResponse" message="tns:IService1_ViewOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewAllPendingOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewAllPendingOrders" message="tns:IService1_ViewAllPendingOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewAllPendingOrdersResponse" message="tns:IService1_ViewAllPendingOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Assign_Booking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Assign_Booking" message="tns:IService1_Assign_Booking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Assign_BookingResponse" message="tns:IService1_Assign_Booking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Registration" message="tns:IService1_Registration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RegistrationResponse" message="tns:IService1_Registration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistinG">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CheckExistinG" message="tns:IService1_CheckExistinG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CheckExistinGResponse" message="tns:IService1_CheckExistinG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingUName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CheckExistingUName" message="tns:IService1_CheckExistingUName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CheckExistingUNameResponse" message="tns:IService1_CheckExistingUName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UserType" message="tns:IService1_UserType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UserTypeResponse" message="tns:IService1_UserType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUserame" message="tns:IService1_GetUserame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUserameResponse" message="tns:IService1_GetUserame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Booking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Booking" message="tns:IService1_Booking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BookingResponse" message="tns:IService1_Booking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewClientOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewClientOrders" message="tns:IService1_ViewClientOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewClientOrdersResponse" message="tns:IService1_ViewClientOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewStatement">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewStatement" message="tns:IService1_ViewStatement_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewStatementResponse" message="tns:IService1_ViewStatement_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewPending">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ViewPending" message="tns:IService1_ViewPending_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ViewPendingResponse" message="tns:IService1_ViewPending_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateCollection" message="tns:IService1_UpdateCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateCollectionResponse" message="tns:IService1_UpdateCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDelivery">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateDelivery" message="tns:IService1_UpdateDelivery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateDeliveryResponse" message="tns:IService1_UpdateDelivery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingMethod">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingMethod" message="tns:IService1_GetDataUsingMethod_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingMethodResponse" message="tns:IService1_GetDataUsingMethod_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetString">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetString" message="tns:IService1_GetString_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStringResponse" message="tns:IService1_GetString_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/IService1/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deregister">
+      <soap:operation soapAction="http://tempuri.org/IService1/Deregister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExisting">
+      <soap:operation soapAction="http://tempuri.org/IService1/CheckExisting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingUsername">
+      <soap:operation soapAction="http://tempuri.org/IService1/CheckExistingUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Usertype">
+      <soap:operation soapAction="http://tempuri.org/IService1/Usertype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSurname">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSurname" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <soap:operation soapAction="http://tempuri.org/IService1/Book" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooking">
+      <soap:operation soapAction="http://tempuri.org/IService1/CancelBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewPendingOrderS">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewPendingOrderS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewStatement">
+      <soap:operation soapAction="http://tempuri.org/IService1/viewStatement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewClientOrderS">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewClientOrderS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDriver">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddDriver" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="driverAvailability">
+      <soap:operation soapAction="http://tempuri.org/IService1/driverAvailability" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editDriver">
+      <soap:operation soapAction="http://tempuri.org/IService1/editDriver" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeDriver">
+      <soap:operation soapAction="http://tempuri.org/IService1/removeDriver" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveDriver1">
+      <soap:operation soapAction="http://tempuri.org/IService1/RemoveDriver1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewDrivers">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewDrivers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewAvailableDrivers">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewAvailableDrivers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewAllDrivers">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewAllDrivers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewWorkingDrivers">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewWorkingDrivers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveDriverDetails">
+      <soap:operation soapAction="http://tempuri.org/IService1/RetrieveDriverDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddVehicle">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveVehicle">
+      <soap:operation soapAction="http://tempuri.org/IService1/RemoveVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssignedVehicle">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAssignedVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewVehicles">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewVehicles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddManager">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddManager" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewOrders">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewAllPendingOrders">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewAllPendingOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Assign_Booking">
+      <soap:operation soapAction="http://tempuri.org/IService1/Assign_Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <soap:operation soapAction="http://tempuri.org/IService1/Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistinG">
+      <soap:operation soapAction="http://tempuri.org/IService1/CheckExistinG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckExistingUName">
+      <soap:operation soapAction="http://tempuri.org/IService1/CheckExistingUName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserType">
+      <soap:operation soapAction="http://tempuri.org/IService1/UserType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserame">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUserame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Booking">
+      <soap:operation soapAction="http://tempuri.org/IService1/Booking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewClientOrders">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewClientOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewStatement">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewStatement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewPending">
+      <soap:operation soapAction="http://tempuri.org/IService1/ViewPending" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCollection">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDelivery">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateDelivery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingMethod">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetString">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:3032/Service1.svc/soap" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Intelli_Fleet_Web
+</name>
+</assembly>
+<members>
+<member name="F:Intelli_Fleet_Web.Finacial_Statements.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.txtBranch">
+	<summary>
+txtBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day1">
+	<summary>
+day1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day2">
+	<summary>
+day2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day3">
+	<summary>
+day3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day4">
+	<summary>
+day4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day5">
+	<summary>
+day5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day6">
+	<summary>
+day6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleReport.day7">
+	<summary>
+day7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.DeleteVehicle.txtReg">
+	<summary>
+txtReg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.DeleteVehicle.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtVehicleRegistration">
+	<summary>
+txtVehicleRegistration control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.btnDetails">
+	<summary>
+btnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtVehicleRegistrations">
+	<summary>
+txtVehicleRegistrations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtVehicleType">
+	<summary>
+txtVehicleType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtVehicleVolume">
+	<summary>
+txtVehicleVolume control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtWeightSupported">
+	<summary>
+txtWeightSupported control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtKilometersDriven">
+	<summary>
+txtKilometersDriven control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.txtDiscExpiryDate">
+	<summary>
+txtDiscExpiryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.EditVehicle.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.expiryDate.expiryDate">
+	<summary>
+expiryDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.expiryDate.txtPackage_Type">
+	<summary>
+txtPackage_Type control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.expiryDate.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewDrivers1.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewDrivers1.HtmlCode1">
+	<summary>
+HtmlCode1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Login.OpenAuthLogin">
+	<summary>
+OpenAuthLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.InvoiceNo">
+	<summary>
+InvoiceNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.Name">
+	<summary>
+Name control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.CollectionAddress">
+	<summary>
+CollectionAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.distinationAddress">
+	<summary>
+distinationAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.Email">
+	<summary>
+Email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.dateDue">
+	<summary>
+dateDue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.bookingNum">
+	<summary>
+bookingNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.distance">
+	<summary>
+distance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.req">
+	<summary>
+req control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.subtotal">
+	<summary>
+subtotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.FinancialStatements.total">
+	<summary>
+total control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Reports.txtBranch">
+	<summary>
+txtBranch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.ddlDrivers">
+	<summary>
+ddlDrivers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.DropDownCode">
+	<summary>
+DropDownCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.btnDetails">
+	<summary>
+btnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.latd">
+	<summary>
+latd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.lngd">
+	<summary>
+lngd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.DriverCollec">
+	<summary>
+DriverCollec control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.DriverDistin">
+	<summary>
+DriverDistin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressCollection0">
+	<summary>
+AddressCollection0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressDistina0">
+	<summary>
+AddressDistina0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressCollection1">
+	<summary>
+AddressCollection1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressDistina1">
+	<summary>
+AddressDistina1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressCollection2">
+	<summary>
+AddressCollection2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.AddressDistina2">
+	<summary>
+AddressDistina2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.track.catalog">
+	<summary>
+catalog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.DeliveryHistory.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUSurname">
+	<summary>
+txtUSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUEmail">
+	<summary>
+txtUEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUPassword">
+	<summary>
+txtUPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.txtUConfirm">
+	<summary>
+txtUConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newManager.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.SideNavigation">
+	<summary>
+SideNavigation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.LogOutCode">
+	<summary>
+LogOutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.LoginCode">
+	<summary>
+LoginCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.OnlineUserActions">
+	<summary>
+OnlineUserActions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.OnlineManagerActions">
+	<summary>
+OnlineManagerActions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.FeaturedContent">
+	<summary>
+FeaturedContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SiteMaster.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewPendingDelveries.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.lblName">
+	<summary>
+lblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.lblSurname">
+	<summary>
+lblSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.lblEmail">
+	<summary>
+lblEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.TxtSurname">
+	<summary>
+TxtSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.TxtUrname">
+	<summary>
+TxtUrname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.TxtEmail">
+	<summary>
+TxtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.txtCPassword">
+	<summary>
+txtCPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.MyProfile.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Manage.successMessage">
+	<summary>
+successMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Manage.setPassword">
+	<summary>
+setPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Manage.password">
+	<summary>
+password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Manage.confirmPassword">
+	<summary>
+confirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Manage.changePassword">
+	<summary>
+changePassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.RegisterExternalLogin.userNameForm">
+	<summary>
+userNameForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.RegisterExternalLogin.userName">
+	<summary>
+userName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleMaintances.CarService">
+	<summary>
+CarService control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleMaintances.ddlDrivers">
+	<summary>
+ddlDrivers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleMaintances.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleMaintances.Reported">
+	<summary>
+Reported control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.VehicleMaintances.catalog">
+	<summary>
+catalog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewOffDrivers.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Security.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Security.txtNpass">
+	<summary>
+txtNpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Security.txtCpass">
+	<summary>
+txtCpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Security.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Security.AlertCode">
+	<summary>
+AlertCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.txtVehicleReg">
+	<summary>
+txtVehicleReg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.txtType">
+	<summary>
+txtType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.txtVolume">
+	<summary>
+txtVolume control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.txtSize">
+	<summary>
+txtSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.TxtMaintance">
+	<summary>
+TxtMaintance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.txtExDate">
+	<summary>
+txtExDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AddVehicle.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUSurname">
+	<summary>
+txtUSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUEmail">
+	<summary>
+txtUEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtLicence">
+	<summary>
+txtLicence control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtPDP">
+	<summary>
+txtPDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.drpRequirements">
+	<summary>
+drpRequirements control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.drpDayOff">
+	<summary>
+drpDayOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtShifts">
+	<summary>
+txtShifts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtEnd">
+	<summary>
+txtEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtExpiry">
+	<summary>
+txtExpiry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUPassword">
+	<summary>
+txtUPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.txtUConfirm">
+	<summary>
+txtUConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.newDriver.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.removeDriver.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.removeDriver.txtUSurname">
+	<summary>
+txtUSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.removeDriver.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.removeDriver.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewOrders.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.DriverConcerns.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Intelli_Fleet_Web.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Intelli_Fleet_Web.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Intelli_Fleet_Web.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Intelli_Fleet_Web.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Intelli_Fleet_Web.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Intelli_Fleet_Web.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Intelli_Fleet_Web.PendingDeliveries.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.AlertCode">
+	<summary>
+AlertCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUSurname">
+	<summary>
+txtUSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUEmail">
+	<summary>
+txtUEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUPassword">
+	<summary>
+txtUPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtUConfirm">
+	<summary>
+txtUConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.ddlQuestions">
+	<summary>
+ddlQuestions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.txtAns">
+	<summary>
+txtAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.A1">
+	<summary>
+A1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Registration.AlertScript">
+	<summary>
+AlertScript control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ViewVehicles.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.txtPackage_Type">
+	<summary>
+txtPackage_Type control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.txtPackage_Weight">
+	<summary>
+txtPackage_Weight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.txtVolume">
+	<summary>
+txtVolume control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.boxRefrig">
+	<summary>
+boxRefrig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.boxHeater">
+	<summary>
+boxHeater control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.boxCannopy">
+	<summary>
+boxCannopy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.boxNone">
+	<summary>
+boxNone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.txtDelivery_date">
+	<summary>
+txtDelivery_date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.txtDelivery_time">
+	<summary>
+txtDelivery_time control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.CollectionAddress">
+	<summary>
+CollectionAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.DestinationAddress">
+	<summary>
+DestinationAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.RouteDistance">
+	<summary>
+RouteDistance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Bookings.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web._Default.code">
+	<summary>
+code control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web._Default.code2">
+	<summary>
+code2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.Location.lat">
+	<summary>
+lat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SignIn.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SignIn.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SignIn.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.SignIn.AlertCode">
+	<summary>
+AlertCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.OpenAuthProviders.providerDetails">
+	<summary>
+providerDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.btnDetails">
+	<summary>
+btnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtUName">
+	<summary>
+txtUName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtUSurname">
+	<summary>
+txtUSurname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtUEmail">
+	<summary>
+txtUEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtLicence">
+	<summary>
+txtLicence control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtPDP">
+	<summary>
+txtPDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.drpRequirements">
+	<summary>
+drpRequirements control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.drpDayOff">
+	<summary>
+drpDayOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtShifts">
+	<summary>
+txtShifts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtEnd">
+	<summary>
+txtEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.txtExpiry">
+	<summary>
+txtExpiry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.editDriver.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.AlertCode">
+	<summary>
+AlertCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.txtUUsername">
+	<summary>
+txtUUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.ddlQuestions">
+	<summary>
+ddlQuestions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.txtAns">
+	<summary>
+txtAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.ForgotSercurity.AlertScript">
+	<summary>
+AlertScript control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Intelli_Fleet_Web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Intelli_Fleet_Web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Intelli_Fleet_Web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Intelli_Fleet_Web.AssignOrder.HtmlCode">
+	<summary>
+HtmlCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AssignOrder.HtmlCode1">
+	<summary>
+HtmlCode1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AssignOrder.txtBooking_Id">
+	<summary>
+txtBooking_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AssignOrder.txtDriver_Id">
+	<summary>
+txtDriver_Id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Intelli_Fleet_Web.AssignOrder.btnAssign">
+	<summary>
+btnAssign control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

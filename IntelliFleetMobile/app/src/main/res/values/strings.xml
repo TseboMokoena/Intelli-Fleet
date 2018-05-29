@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">IntelliFleet Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Signout">Sign out</string>
+    <string name="title_activity_activity_example">activity_example</string>
+    <string name="title_activity_activity__book">Booking</string>
+    <string name="title_activity_activity__route">Routing</string>
+
+    <string name="title_activity_activity__track">Tracking</string>
+    <string name="title_activity_login">Intelli-Fleet Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This Username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_activity__cprofile">Profile</string>
+    <string name="title_activity_activity__package_stat">Package Status</string>
+    <string name="title_activity_activity__pending_deliveries">Pending Deliveries</string>
+    <string name="title_activity_activity__update_collection">Update Collection</string>
+    <string name="title_activity_activity__update_delivery">Update Delivery</string>
+    <string name="title_activity_activity_booking">Bookings</string>
+    <string name="title_activity_activity__routing_schedule">Routing Schedule</string>
+    <string name="title_activity_activity__dprofile">Profile</string>
+    <string name="title_activity_activity__manage_orders">Manage Orders</string>
+    <string name="title_activity_activity__routing_schedules">Routing Schedules</string>
+    <string name="title_activity_activity__track_driver">Track Drivers</string>
+    <string name="title_activity_activity__remove_drivers">Remove Drivers</string>
+    <string name="title_activity_activity__add_drivers">Add Drivers</string>
+    <string name="title_activity_activity__mprofile">Profile</string>
+    <string name="btnBooking">Make Booking</string>
+    <string name="btnviewstat">View status</string>
+    <string name="addDriver">Add driver</string>
+    <string name="title_activity_activity__registration">Registration</string>
+    <string name="title_activity_activity__vehicle__check_out__check_in">Vehicle CheckOut/In
+    </string>
+    <string name="title_activity_activity__routing">Routing</string>
+    <string name="title_activity_alternative__routes">Alternative Routes</string>
+    <string name="title_activity_destination__route">Map</string>
+    <string name="title_activity_alternative__routes2">Map</string>
+    <string name="title_activity__back__to__parking">Activity_Back_To_Parking</string>
+
+</resources>
